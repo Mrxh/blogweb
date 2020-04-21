@@ -24,6 +24,9 @@ module.exports = {
       },
       "svg": "always",
       "math": "always"
+    }],
+    "no-extend-native": ["error", { 
+      "exceptions": ["Array"] 
     }]
   }
 }

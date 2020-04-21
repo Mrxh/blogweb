@@ -1,7 +1,7 @@
 <template>
   <Row :gutter="20">
     <Col :xs="24" :sm="24" :md="24" :lg="16">
-    <div v-if="!aid || islabel">
+    <div v-if="!aid || islabel" class="art-list">
       <Row :gutter="20">
         <Col
           v-for="(item,idx) in artlist"
@@ -121,5 +121,7 @@ export default {
 </script>
 
 <style lang='scss'>
-
+  .art-list{
+      margin-bottom: 20px;
+  }
 </style>

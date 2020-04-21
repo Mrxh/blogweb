@@ -1,6 +1,6 @@
 <template>
   <div class="footer">
-    Design by Mrxh个人博客 蜀ICP备11002373号-1
+    Design by Mrxh个人博客
   </div>
 </template>
 

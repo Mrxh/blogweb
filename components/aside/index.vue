@@ -117,7 +117,12 @@ export default {
   },
   computed: {
     linkpath () {
-      return this.$route.path.split('/')[1].toString()
+      const pathname = this.$route.path.split('/')[1].toString()
+      if (pathname) {
+        return pathname
+      } else {
+        return 'art'
+      }
     }
   },
   methods: {

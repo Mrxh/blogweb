@@ -18,10 +18,9 @@
 
         <p><strong>About my blog &nbsp;</strong></p>
 
-        <p>域 名：www.tianyue556.com 创建于2020年02月12日&nbsp;</p>
+        <p>域 名：www.tianyue556.cn 创建于2020年02月12日&nbsp;</p>
 
         <p>服务器：百度云服务器</p>
-        <p>备案号：蜀ICP备11002373号-1</p>
         <p>程 序：vscode</p>
       </div>
       </Col>

@@ -3,8 +3,7 @@ import axios from 'axios'
 import { Spin } from 'iview'
 
 const service = axios.create({
-  baseURL: '/api',
-  timeout: 5000
+  baseURL: '/api'
 })
 
 // @请求拦截器

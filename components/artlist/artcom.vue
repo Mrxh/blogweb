@@ -46,7 +46,12 @@ export default {
   mounted () {
     const self = this
     // 加密
-    this.aid = Base64.encode(self.artobj._id).toString()
+    self.aid = Base64.encode(self.artobj._id).toString()
+  },
+  updated () {
+    const self = this
+    // 加密
+    self.aid = Base64.encode(self.artobj._id).toString()
   }
 }
 </script>
@@ -90,10 +95,20 @@ export default {
          }
          .artcom-intro{
            margin-bottom: 10px;
+           height: 52px;
            overflow: hidden;
+           display: -ms-flexbox;
+           -ms-box-orient: vertical;
+           -ms-line-clamp: 3;
            display: -webkit-box;
            -webkit-box-orient: vertical;
            -webkit-line-clamp: 3;
+           display: -moz-box;
+           -moz-box-orient: vertical;
+           -moz-line-clamp: 3;
+           display: -o-box;
+           -o-box-orient: vertical;
+           -o-line-clamp: 3;
          }
        }
        a{

@@ -5,7 +5,7 @@ export default {
   ** Headers of the page
   */
   head: {
-    title: process.env.npm_package_name || '',
+    title: '天月的博客',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -84,5 +84,9 @@ export default {
   },
   router:{
     base: '/'
-  }
+  },
+  server: {
+    port: 3001, // default: 3000
+    host: '0.0.0.0', // default: localhost
+  },
 }

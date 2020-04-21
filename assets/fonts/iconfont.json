@@ -6,6 +6,13 @@
   "description": "",
   "glyphs": [
     {
+      "icon_id": "5344808",
+      "name": "点赞",
+      "font_class": "zan",
+      "unicode": "e682",
+      "unicode_decimal": 59010
+    },
+    {
       "icon_id": "1272139",
       "name": "电话",
       "font_class": "dianhua",

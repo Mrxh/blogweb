@@ -4,7 +4,7 @@
       <Icon type="md-brush" />{{ artobj.author }}
     </span>
     <span>
-      <Icon type="md-time" />{{ artobj.updatedAt ? artobj.updatedAt.slice(0,10) : '2020-01-01' }}
+      <Icon type="md-time" />{{ artobj.createdAt ? artobj.createdAt.slice(0,10) : '2020-01-01' }}
     </span>
     <span>
       <Icon type="md-eye" />{{ artobj.views }}

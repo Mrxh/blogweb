@@ -11,7 +11,7 @@
           :key="idx"
         >
         <div class="camera-img">
-          <img :src="item.url" preview="0" alt="相册图">
+          <img :src="item.imgUrl" preview="0" :alt="item.name">
         </div>
         </Col>
       </Row>

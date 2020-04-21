@@ -7,7 +7,8 @@ const api = {
   labelsList: '/labelsList',
   IndexArticleList: '/IndexArticleList',
   ArticleDetail: '/ArticleDetail',
-  LabelsArticle: 'LabelsArticle'
+  LabelsArticle: '/LabelsArticle',
+  careArticle: '/careArticle'
 }
 
 export const ArtList = async (data) => {
@@ -47,5 +48,10 @@ export const ArticleDetail = async (aid) => {
 
 export const LabelsArticle = async (data) => {
   const ret = await http.post(api.LabelsArticle, data)
+  return ret
+}
+
+export const careArticle = async (data) => {
+  const ret = await http.post(api.careArticle, data)
   return ret
 }
